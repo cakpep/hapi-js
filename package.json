@@ -1,10 +1,10 @@
 {
-  "name": "firstapp",
+  "name": "RestAPIHAPIJS",
   "version": "1.0.0",
   "description": "test",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node Src/server.js"
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +14,11 @@
     "inert": "^4.2.1",
     "jsonwebtoken": "^8.1.0",
     "knex": "^0.13.0",
-    "mysql": "^2.15.0"
+    "mysql": "^2.15.0",
+    "mysql2": "^1.4.2",
+    "sqlite3": "^3.1.13"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
   }
 }
