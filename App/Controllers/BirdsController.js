@@ -1,22 +1,6 @@
 const Hapi = require('hapi');
 const server = new Hapi.Server();
 const Birds = require('../Model/Birds');
-const Config = require('./config');
-
-server.connection( {
-    port: Config.server.port
-} );
-
-server.route({
-    method: 'GET',
-    path: '/',
-    handler: function (request, reply) {
-        reply({
-            error: false,
-            message: `Server started at ${ server.info.uri }`,
-        });
-    }
-});
 
 server.route( {
 
