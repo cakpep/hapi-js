@@ -1,4 +1,16 @@
 module.exports = {
+  //basic auth configuration
+  basicAuth: {
+    username: 'cakpep',
+    password: 'cakpep',
+    users: {
+      cakpep: {
+        id: '1',
+        username: 'cakpep',
+        password: '$2a$04$YPy8WdAtWswed8b9MfKixebJkVUhEZxQCrExQaxzhcdR2xMmpSJiG'  // 'studio'
+      }
+    }
+  },
   // server configuration
   server: {
     port: 8080,
